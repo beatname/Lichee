@@ -127,3 +127,7 @@
 		"Mic",  "HBIAS";
 	status = "okay";
 };
+
+&emac {
+	status = "okay";
+};
