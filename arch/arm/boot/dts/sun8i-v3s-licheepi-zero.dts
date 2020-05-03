@@ -62,12 +62,12 @@
 		blue_led {
 			label = "licheepi:blue:usr";
 			gpios = <&pio 6 1 GPIO_ACTIVE_LOW>; /* PG1 */
+			default-state = "on";
 		};
 
 		green_led {
 			label = "licheepi:green:usr";
 			gpios = <&pio 6 0 GPIO_ACTIVE_LOW>; /* PG0 */
-			default-state = "on";
 		};
 
 		red_led {
