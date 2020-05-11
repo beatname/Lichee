@@ -131,3 +131,9 @@
 &emac {
 	status = "okay";
 };
+
+&pwm {
+        pinctrl-names = "default";
+        pinctrl-0 = <&pwm0_pins>, <&pwm1_pins>;
+        status = "okay";
+};
