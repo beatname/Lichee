@@ -351,6 +351,11 @@
 				function = "pwm0";
 			};
 
+			pwm1_pins: pwm1 {
+        	pins = "PB5";
+       		function = "pwm1";
+			};
+
 			uart0_pins_a: uart0@0 {
 				pins = "PB8", "PB9";
 				function = "uart0";
